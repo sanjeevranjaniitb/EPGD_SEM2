@@ -1,45 +1,62 @@
-# Python specific ignores
+# Compiled Java class files
+*.class
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.pyc
-*.pyd
-*.pyo
+# Log files
+*.log
+logs/
 
-# Distribution / packaging
-.Python
-build/
-dist/
-*.egg-info/
-*.egg
-*.whl
+# Package files
+*.jar
+*.war
+*.ear
 
-# Environments
-.env
-.venv/
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Maven build output
+target/
 
-# Editors
+# Maven release files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
 # VS Code
 .vscode/
-# PyCharm / IntelliJ IDEA
-.idea/
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
 
-# Operating System files
+# Mac OS
 .DS_Store
+
+# Windows
 Thumbs.db
 
-# Logs and temporary files
-*.log
-*.tmp
-tmp/
+# JVM crash logs
+hs_err_pid*
 
-# Jupyter Notebook specific
-.ipynb_checkpoints/
+# data files
+data/
+
+# gitignore
+/Users/sanjeev/EPGD/.gitignore
