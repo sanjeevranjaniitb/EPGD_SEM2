@@ -10,6 +10,10 @@ logs/
 *.war
 *.ear
 
+# virtual environment
+.venv
+.venv/
+
 # Maven build output
 target/
 
